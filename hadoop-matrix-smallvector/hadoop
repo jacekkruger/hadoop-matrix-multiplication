@@ -1,0 +1,7 @@
+hadoop jar ./target/hadoop-matrix-smallvector-1.0-SNAPSHOT.jar \
+-Dmatrix-smallvector.matrix=matrix-smallvector/input/matrix \
+-Dmatrix-smallvector.vector=matrix-smallvector/input/vector \
+-Dmatrix-smallvector.output=matrix-smallvector/output \
+-Dmapred.max.split.size=20 \
+-Dmapreduce.ifile.readahead=false \
+"$@"
