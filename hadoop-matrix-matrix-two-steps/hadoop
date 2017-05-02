@@ -1,0 +1,8 @@
+hadoop jar ./target/hadoop-matrix-matrix-two-steps-1.0-SNAPSHOT.jar \
+-Dmatrix-matrix-twosteps.left=matrix-matrix-twosteps/input/left \
+-Dmatrix-matrix-twosteps.right=matrix-matrix-twosteps/input/right \
+-Dmatrix-matrix-twosteps.temp=matrix-matrix-twosteps/temp \
+-Dmatrix-matrix-twosteps.output=matrix-matrix-twosteps/output \
+-Dmapred.max.split.size=20 \
+-Dmapreduce.ifile.readahead=false \
+"$@"
