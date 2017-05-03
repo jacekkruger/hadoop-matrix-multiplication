@@ -21,6 +21,7 @@
 		<module>hadoop-matrix-smallvector</module>
 		<module>hadoop-matrix-vector</module>
 		<module>hadoop-matrix-matrix-two-steps</module>
+		<module>hadoop-matrix-matrix</module>
 	</modules>
 
 	<dependencyManagement>

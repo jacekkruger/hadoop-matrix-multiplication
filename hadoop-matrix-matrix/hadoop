@@ -1,0 +1,8 @@
+hadoop jar ./target/hadoop-matrix-matrix-1.0-SNAPSHOT.jar \
+-Dmatrix-matrix.left=matrix-matrix/input/left \
+-Dmatrix-matrix.right=matrix-matrix/input/right \
+-Dmatrix-matrix.output=matrix-matrix/output \
+-Dmatrix-matrix.output.size=3,3 \
+-Dmapred.max.split.size=20 \
+-Dmapreduce.ifile.readahead=false \
+"$@"

@@ -1,0 +1,1 @@
+hdfs dfs -mkdir -p matrix-matrix/input && hdfs dfs -put ./input/* matrix-matrix/input/
